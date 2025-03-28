@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Internship Application Form</title>
+</head>
+<body bgcolor="Lightblue"></body>
+<body>
+
+<form action="#" method="post">
+
+  <h2>Internship Application</h2>
+  <fieldset>
+    <img src="C:\Users\Students\Pictures" width="250" height="150"
+  <legend><h3>User Personal Information:</h3></legend>
+  <label for="name">Enter your full name:</label>
+  <input type="text" required placeholder="First Name">
+  <input type="text" required placeholder="Middle Name">
+  <input type="text" required placeholder="Last Name"><br><br>
+
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="phone">Phone Number:</label>
+  <input type="tel" id="phone" name="phone"><br><br>
+
+  <label for="address">Address:</label>
+  <textarea id="address" name="address" rows="3"></textarea><br><br>
+
+  <label for="education">Highest Education:</label>
+  <input type="text" id="education" name="education"><br><br>
+
+  <label for="major">Major:</label>
+  <input type="text" id="major" name="major"><br><br>
+
+  <label for="experience">Relevant Experience:</label>
+  <textarea id="experience" name="experience" rows="3"></textarea><br><br>
+
+  <label for="skills">Skills:</label>
+  <input type="text" id="skills" name="skills"><br><br>
+
+  <label for="resume">Resume:</label>
+  <input type="file" id="resume" name="resume"><br><br>
+
+  <label for="coverletter">Cover Letter:</label>
+  <input type="file" id="coverletter" name="coverletter"><br><br>
+
+  
+  <label>Select your State:</label>
+            <select>
+                <option>Select State</option>
+                <option>Maharashtra</option>
+                <option>Madhya Pradesh</option>
+                <option>Uttar Pradesh</option>
+                <option>Bihar</option>
+                <option>Others</option>
+            </select><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><h3>Educational & Internship Details:</h3></legend>
+            <label>Select your Branch:</label>
+            <div class="branch-group">
+                <input type="checkbox" name="branch" value="MTech">
+                <label for="MTech">MTech</label>
+
+                <input type="checkbox" name="branch" value="CSE">
+                <label for="CSE">CSE</label>
+
+                <input type="checkbox" name="branch" value="ETC">
+                <label for="ETC">ETC</label>
+
+                <input type="checkbox" name="branch" value="Civil">
+                <label for="Civil">Civil</label>
+
+                <input type="checkbox" name="branch" value="Mech">
+                <label for="Mech">Mech</label>
+            </div><br>
+
+            <label for="ssc">SSC % marks:</label>
+            <input type="text" required><br><br>
+
+            <label for="hsc">HSC % marks:</label>
+            <input type="text" required><br><br>
+
+            <label for="college">College/University Name:</label>
+            <input type="text" required><br><br>
+
+            <label for="internshipDomain">Preferred Internship Domain:</label>
+            <select>
+                <option>Select Domain</option>
+                <option>Software Development</option>
+                <option>Data Science</option>
+                <option>Mechanical Engineering</option>
+                <option>Marketing</option>
+                <option>Finance</option>
+                <option>Other</option>
+            </select><br><br>
+
+            <label for="resume">Upload Resume (PDF/DOC):</label>
+            <input type="file" accept=".pdf, .doc, .docx" required><br><br>
+
+            <label for="internshipDuration">Preferred Internship Duration:</label>
+            <input type="text" placeholder="e.g., 3 months, 6 months" required><br><br>
+
+            <label for="availability">Are you available for a full-time internship?</label>
+            <input type="radio" name="availability" value="yes" required>
+            <label for="yes">Yes</label>
+
+            <input type="radio" name="availability" value="no">
+            <label for="no">No</label>
+        </fieldset>
+        <input type="submit" value="Submit Application">
+
+</form>
+
+</body>
+</html>
